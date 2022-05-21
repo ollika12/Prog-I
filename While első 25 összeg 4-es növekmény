@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n=7, i=0,o=0;
+    while (i<=25)
+    {
+        o=o+n;
+        n=n+4;
+        i++;
+    }
+    printf("Az eredmeny: %i\n", o);
+    return 0;
+}
